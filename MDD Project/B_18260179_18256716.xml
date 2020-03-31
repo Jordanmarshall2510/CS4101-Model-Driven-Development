@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<model id="1" version="2.1">
+  <id>5a2f1dc8-f371-4540-99b0-139e1ec01fff</id>
+  <name>cheekibreekiai</name>
+  <changecounter>17</changecounter>
+  <sib id="2">
+    <id>dc4c180c-a949-417d-b6a0-f1506bbf462e</id>
+    <name>Output</name>
+    <label>erfolgreich</label>
+    <sib-uid>de/jabc/plugin/jabc4/sib/OutputCanal</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.Output</taxonomy>
+    <position>1045.5,602.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="3">
+        <ContextKeyFoundation id="4">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_error_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="5">
+        <ContextKeyFoundation id="6">
+          <key>ace98087-8093-4e56-b75a-a62a3fc1926d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_exception_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="7">
+        <ContextKeyFoundation id="8">
+          <key>33e60acb-fe9c-42fe-8a23-2440675e6e1c</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="9">
+        <ContextKeyFoundation id="10">
+          <key>f71d1955-74e1-4097-876c-71a0f7e2c290</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="type_0">
+      <de.metaframe.jabc.framework.sib.parameter.JavaBeanReference id="11">
+        <JavaBeanReferenceFoundation id="12">
+          <clazz>java.lang.Integer</clazz>
+          <fields class="tree-map" id="13"/>
+          <classMutable>true</classMutable>
+          <useExpressions>false</useExpressions>
+          <info id="14">
+            <onlyInterfaces>false</onlyInterfaces>
+            <showOnlyFiltered>false</showOnlyFiltered>
+          </info>
+        </JavaBeanReferenceFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.JavaBeanReference>
+    </parameter>
+    <finalbranches>error</finalbranches>
+    <finalbranches>exception</finalbranches>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputType_exception_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="15">
+        <type class="java-class">java.lang.Exception</type>
+        <typeParams id="16"/>
+        <rawType>java.lang.Exception</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="outputDoc_success_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="17">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="18"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="17"/>
+    </userobject>
+    <userobject key="outputName_exception_0">
+      <string>exception</string>
+    </userobject>
+    <userobject key="outputDoc_exception_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputDoc_error_0">
+      <string></string>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="19"/>
+    </userobject>
+    <userobject key="outputName_error_0">
+      <string>error</string>
+    </userobject>
+    <userobject key="canalDocumentation_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputType_error_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="20">
+        <type class="java-class">java.lang.Error</type>
+        <typeParams id="21"/>
+        <rawType>java.lang.Error</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="userDefinedCanal_0">
+      <boolean>true</boolean>
+    </userobject>
+  </sib>
+  <sib id="22">
+    <id>a9997668-01ce-45e4-a7a9-f30457c307e4</id>
+    <name>Input</name>
+    <label>start</label>
+    <sib-uid>de/jabc/plugin/jabc4/sib/InputCanal</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.Input</taxonomy>
+    <position>53.0,392.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="23">
+        <ContextKeyFoundation id="24">
+          <key>cdba5f32-6aa9-4658-9bbc-7c0096b09ed4</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="25">
+        <ContextKeyFoundation id="26">
+          <key>818f3d52-30f3-433d-895f-4e3acfd56e6f</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="27">
+        <ContextKeyFoundation id="28">
+          <key>1a1d6c74-fa64-4e64-aef2-5c2618ead362</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_3">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="29">
+        <ContextKeyFoundation id="30">
+          <key>0e31b5a8-842c-4d3a-bec1-684ce5ff3efb</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_error_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="31">
+        <ContextKeyFoundation id="32">
+          <key>b6e3b026-4622-410f-a140-9ad1768ddbd4</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_exception_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="33">
+        <ContextKeyFoundation id="34">
+          <key>f93125a8-59c0-469f-af31-c8e64a3c406f</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="35">
+        <ContextKeyFoundation id="36">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="37">
+        <ContextKeyFoundation id="38">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="39">
+        <ContextKeyFoundation id="40">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_3">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="41">
+        <ContextKeyFoundation id="42">
+          <key>fc98cb3f-6c77-403c-a952-d9273b9b9531</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="type_0">
+      <de.metaframe.jabc.framework.sib.parameter.JavaBeanReference id="43">
+        <JavaBeanReferenceFoundation id="44">
+          <clazz>de.freewarepoint.cr.Field</clazz>
+          <fields class="tree-map" id="45"/>
+          <classMutable>true</classMutable>
+          <useExpressions>false</useExpressions>
+          <info id="46">
+            <onlyInterfaces>false</onlyInterfaces>
+            <showOnlyFiltered>false</showOnlyFiltered>
+          </info>
+        </JavaBeanReferenceFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.JavaBeanReference>
+    </parameter>
+    <parameter name="type_1">
+      <de.metaframe.jabc.framework.sib.parameter.JavaBeanReference id="47">
+        <JavaBeanReferenceFoundation id="48">
+          <clazz>java.lang.Integer</clazz>
+          <fields class="tree-map" id="49"/>
+          <classMutable>true</classMutable>
+          <useExpressions>false</useExpressions>
+          <info id="50">
+            <onlyInterfaces>false</onlyInterfaces>
+            <showOnlyFiltered>false</showOnlyFiltered>
+          </info>
+        </JavaBeanReferenceFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.JavaBeanReference>
+    </parameter>
+    <parameter name="type_2">
+      <de.metaframe.jabc.framework.sib.parameter.JavaBeanReference id="51">
+        <JavaBeanReferenceFoundation id="52">
+          <clazz>java.lang.Integer</clazz>
+          <fields class="tree-map" id="53"/>
+          <classMutable>true</classMutable>
+          <useExpressions>false</useExpressions>
+          <info id="54">
+            <onlyInterfaces>false</onlyInterfaces>
+            <showOnlyFiltered>false</showOnlyFiltered>
+          </info>
+        </JavaBeanReferenceFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.JavaBeanReference>
+    </parameter>
+    <parameter name="type_3">
+      <de.metaframe.jabc.framework.sib.parameter.JavaBeanReference id="55">
+        <JavaBeanReferenceFoundation id="56">
+          <clazz>de.freewarepoint.cr.Player</clazz>
+          <fields class="tree-map" id="57"/>
+          <classMutable>true</classMutable>
+          <useExpressions>false</useExpressions>
+          <info id="58">
+            <onlyInterfaces>false</onlyInterfaces>
+            <showOnlyFiltered>false</showOnlyFiltered>
+          </info>
+        </JavaBeanReferenceFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.JavaBeanReference>
+    </parameter>
+    <finalbranches>error</finalbranches>
+    <finalbranches>exception</finalbranches>
+    <finalbranches>success</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputName_3">
+      <string>player</string>
+    </userobject>
+    <userobject key="outputType_success_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="59">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="60"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="outputType_success_3">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="61">
+        <type class="java-class">de.freewarepoint.cr.Player</type>
+        <typeParams id="62"/>
+        <rawType>de.freewarepoint.cr.Player</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="63">
+        <type class="java-class">de.freewarepoint.cr.Field</type>
+        <typeParams id="64"/>
+        <rawType>de.freewarepoint.cr.Field</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="outputName_exception_0">
+      <string>exception</string>
+    </userobject>
+    <userobject key="outputDoc_exception_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputType_success_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="59"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="canalDocumentation_1">
+      <string></string>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="65"/>
+    </userobject>
+    <userobject key="outputName_error_0">
+      <string>error</string>
+    </userobject>
+    <userobject key="canalDocumentation_0">
+      <string></string>
+    </userobject>
+    <userobject key="canalDocumentation_3">
+      <string></string>
+    </userobject>
+    <userobject key="canalDocumentation_2">
+      <string></string>
+    </userobject>
+    <userobject key="outputType_exception_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="15"/>
+    </userobject>
+    <userobject key="outputDoc_success_1">
+      <string></string>
+    </userobject>
+    <userobject key="userDefinedCanal_2">
+      <boolean>true</boolean>
+    </userobject>
+    <userobject key="outputDoc_success_0">
+      <string></string>
+    </userobject>
+    <userobject key="userDefinedCanal_3">
+      <boolean>true</boolean>
+    </userobject>
+    <userobject key="inputType_3">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="61"/>
+    </userobject>
+    <userobject key="outputDoc_success_3">
+      <string></string>
+    </userobject>
+    <userobject key="outputDoc_success_2">
+      <string></string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="63"/>
+    </userobject>
+    <userobject key="outputName_success_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="59"/>
+    </userobject>
+    <userobject key="outputName_success_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="59"/>
+    </userobject>
+    <userobject key="outputDoc_error_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputName_success_3">
+      <string>player</string>
+    </userobject>
+    <userobject key="ABC$START">
+      <boolean>true</boolean>
+    </userobject>
+    <userobject key="outputType_error_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="20"/>
+    </userobject>
+    <userobject key="userDefinedCanal_0">
+      <boolean>true</boolean>
+    </userobject>
+    <userobject key="userDefinedCanal_1">
+      <boolean>true</boolean>
+    </userobject>
+  </sib>
+  <sib id="66">
+    <id>d9eb537a-a7fa-4565-adb2-b40b2406b90a</id>
+    <name>ServiceGraph_10</name>
+    <label>initialize</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>172.0,586.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="67">
+        <ContextKeyFoundation id="68">
+          <key>fc98cb3f-6c77-403c-a952-d9273b9b9531</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="69">
+        <ContextKeyFoundation id="70">
+          <key>c91ff054-81be-4d28-be4e-bd78be38b275</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_erfolgreich_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="71">
+        <ContextKeyFoundation id="72">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_erfolgreich_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="73">
+        <ContextKeyFoundation id="74">
+          <key>cdae8cf5-6fd2-45b1-9549-223c3ae7325b</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>erfolgreich</finalbranches>
+    <userobject key="outputType_erfolgreich_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="59"/>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;init.svg&quot; version=&quot;1.1&quot; width=&quot;34&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.48.3.1 r9886&quot; height=&quot;34&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;linearGradient xlink:actuate=&quot;onLoad&quot; xlink:type=&quot;simple&quot; id=&quot;linearGradient3776&quot; xlink:show=&quot;other&quot; inkscape:collect=&quot;always&quot;&gt;
+      &lt;stop offset=&quot;0&quot; style=&quot;stop-color:#ad7fa8;stop-opacity:1;&quot; id=&quot;stop3778&quot;/&gt;
+      &lt;stop offset=&quot;1&quot; style=&quot;stop-color:#75507b;stop-opacity:1&quot; id=&quot;stop3780&quot;/&gt;
+    &lt;/linearGradient&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;linearGradient x1=&quot;15.107886&quot; gradientUnits=&quot;userSpaceOnUse&quot; x2=&quot;15.107886&quot; y1=&quot;10.8201&quot; xlink:href=&quot;#linearGradient3776&quot; y2=&quot;28.568789&quot; xlink:type=&quot;simple&quot; xlink:actuate=&quot;onLoad&quot; id=&quot;linearGradient3782&quot; xlink:show=&quot;other&quot; inkscape:collect=&quot;always&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1000&quot; inkscape:zoom=&quot;15.839192&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;24&quot; inkscape:cy=&quot;9.6900917&quot; inkscape:window-x=&quot;65&quot; inkscape:cx=&quot;32.421212&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1215&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.11219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;fill:#eeeeec;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g style=&quot;fill:#eeeeec&quot; id=&quot;g6867-1&quot;/&gt;
+      &lt;g style=&quot;fill:#eeeeec&quot; id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g style=&quot;fill:#eeeeec&quot; id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g style=&quot;fill:#000000&quot; id=&quot;g2849&quot;/&gt;
+    &lt;g id=&quot;g4057&quot; transform=&quot;matrix(1.2206467,0,0,1.2206467,-51.749535,-124.32535)&quot;&gt;
+      &lt;path sodipodi:nodetypes=&quot;sssssssssccs&quot; d=&quot;m 27.526657,15.564716 c 0,1.673676 -0.339196,3.268128 -0.952593,4.718364 -0.613398,1.450236 -1.500999,2.756255 -2.597809,3.853065 -1.09681,1.09681 -2.402829,1.984411 -3.853065,2.597809 -1.450236,0.613397 -3.044688,0.952593 -4.718364,0.952593 -1.673676,0 -3.268128,-0.339196 -4.718364,-0.952593 C 9.2362266,26.120556 7.9302072,25.232955 6.8333973,24.136145 5.7365873,23.039335 4.8489868,21.733316 4.2355888,20.28308 3.6221907,18.832844 3.2829952,17.238392 3.2829952,15.564716 c 0,-1.673676 0.3391955,-3.268128 0.9525936,-4.718363 l 22.3384752,0 c 0.613397,1.450235 0.952593,3.044687 0.952593,4.718363 z&quot; id=&quot;path3780-0&quot; inkscape:connector-curvature=&quot;0&quot; style=&quot;color:#000000;fill:url(#linearGradient3782);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot; transform=&quot;matrix(0.95261096,0,0,0.95261096,219.8609,539.78507)&quot;/&gt;
+      &lt;path sodipodi:nodetypes=&quot;csssssssssc&quot; d=&quot;m 245.17564,550.11742 c 0.58433,1.38151 0.90746,2.90041 0.90746,4.49477 0,1.59436 -0.32313,3.11325 -0.90746,4.49476 -0.58433,1.38152 -1.42986,2.62564 -2.4747,3.67048 -1.04483,1.04483 -2.28896,1.89037 -3.67047,2.4747 -1.38151,0.58433 -2.9004,0.90745 -4.49476,0.90745 -1.59437,0 -3.11326,-0.32312 -4.49477,-0.90745 -1.38151,-0.58433 -2.62564,-1.42987 -3.67047,-2.4747 -1.04483,-1.04484 -1.89037,-2.28896 -2.4747,-3.67048 -0.58433,-1.38151 -0.90745,-2.9004 -0.90745,-4.49476 0,-1.59436 0.32312,-3.11326 0.90745,-4.49477&quot; id=&quot;path3780&quot; inkscape:connector-curvature=&quot;0&quot; style=&quot;color:#000000;fill:none;stroke:#5c3566;stroke-width:1.90522194;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;3&quot; x=&quot;227.1971&quot; id=&quot;rect3802&quot; y=&quot;546.16858&quot; height=&quot;3&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;3&quot; x=&quot;237.63835&quot; id=&quot;rect3802-7&quot; y=&quot;546.26898&quot; height=&quot;3&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;230.16321&quot; id=&quot;rect3802-7-6&quot; y=&quot;542.08862&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;242.02673&quot; id=&quot;rect3802-7-6-8&quot; y=&quot;547.44257&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;238.34416&quot; id=&quot;rect3802-7-6-7&quot; y=&quot;543.27942&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;231.38646&quot; id=&quot;rect3802-7-6-6&quot; y=&quot;547.42401&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;231.6754&quot; id=&quot;rect3802-7-6-6-1-4&quot; y=&quot;545.13452&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;241.57449&quot; id=&quot;rect3802-7-6-6-1-0&quot; y=&quot;545.78064&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;228.00769&quot; id=&quot;rect3802-7-6-6-1-01&quot; y=&quot;543.46375&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;3&quot; x=&quot;233.12944&quot; id=&quot;rect3802-5&quot; y=&quot;541.21429&quot; height=&quot;3&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;236.95409&quot; id=&quot;rect3802-7-6-6-1-4-3&quot; y=&quot;542.21295&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;235.24365&quot; id=&quot;rect3802-7-6-6-1-0-7&quot; y=&quot;548.29651&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;234.46591&quot; id=&quot;rect3802-7-6-7-0&quot; y=&quot;545.28821&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#ad7fa8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;1&quot; x=&quot;225.24319&quot; id=&quot;rect3802-7-6-6-1-0-7-9&quot; y=&quot;545.44177&quot; height=&quot;1&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+      &lt;rect width=&quot;2&quot; x=&quot;223.92244&quot; id=&quot;rect3802-7-6-8-0&quot; y=&quot;547.34094&quot; height=&quot;2&quot; style=&quot;color:#000000;fill:#5c3566;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate&quot;/&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="61"/>
+    </userobject>
+    <userobject key="outputType_erfolgreich_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="61"/>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>player</string>
+    </userobject>
+    <userobject key="outputName_erfolgreich_1">
+      <string>opponent</string>
+    </userobject>
+    <userobject key="outputName_erfolgreich_0">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="75">
+        <entry>
+          <string>erfolgreich</string>
+          <string>success</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAABT1JREFUeNrVWGtsVEUUPjP37qMvWrCxtJQSaGNrDaZCiyTQiMboHxPEQrWpbdTQYjCEf2iiMavEGEzEH000rJgQ3QrSNvpD+EGQNEEbpVsCFipqK6XtbnfLtt3uo/u6d8Yzdx+UuoUWdo3eZHJn5s7M+eac8505cwH+Iw+5n8kvb2ptAw5bYiv5LRfMtfe6lryUwU01LU9woO+KOiVyPeORMqw+pn3k4N1Xts8wvTz0CTA4aOkzj6ccSOPj+5aFSxx+PgwFKPEp0ReOBAyy/M/pnEA2qrmwsbqlShsXcP/QcbUjfDcZdFH2YyGn4foDtZQROwHyvSiqkQSBcxuaZFArAENtg22h9gvmZiCknBByWhQ5O3d56kzDpapMro6a+8yz2PrRZDLRyquVpL6jfneqnFVObordm4HRhvZe837Rtlg/+33u9/Ws/G14hNdCBzxz0nRyhczZeQ0v5wfq3m84xSX9KaIqFaJPKZl2vcL2rgxDZOXXvZ9fWhIQotAwocQt6l2mb84Qzo1R+5OeOtOLb4GiHOWUntAGh0DieqiMEofkdZna1wFIpoTtGRzvun6uhBLSis2NiwaClHweGJcUXCBqFr6FA2TGPnu0xfWGAq5CBgpV5VnDTQUCR0U/43xQ4rp8Bqwpvp5K4JLFaj7cVP36T02b9lQTlU982WceubuzcrCgs3XKlOxc0GWAneCU9aDvHNj+0Xava3xmL1HhMLsmWRecQ9m3aLpeRsmb98oax63Cp5INyC/KXs0lGIAyWJEyZ6UyLQ8rlEpUmhHtuvdeKp0/hnFWD4xkSBI4Rbsf/hyuDFbm7Tq0S5jO1WHqMMTHDsCAEvOfBsK4kQAfv2uIf23LG+fWlqx6snRNMRgM+rScKaFwBIZHbDA0Yjvzxfm2Z+P9UrzSXNPytKqyd1xTbpJhNEBebo6gY8rLmN0J/b8NgqqopeuLN/T12y7+cZuPMCAfIjtobk42FK8qAJWxtJSiwgdByNDMwcnBbdtMcgJI88bWrfiqFvWHy9chKyBtQIRWKh5aG99/VYnfti3hrIzyzcJdliHSnOwsYCpLa+6RtyxHK26PFzdNUTaclaMxC0oJum1WVoaGWOU87YlQRqYxBoSvSWiEEOoTYSoUCqP61H8lI4sge2K8DSaA4P4vCx5PTc9AIBBMG3VvUTgMk9PuaMRlMJQAogPprAKKQGYcd07CamRNOh8hI2Z9BSTWmWDNsd5PRQjXOpw3JyGiKmljjYJEcE5MxszCv2v/5ejYvDjCPxbvYDAEDkScLiCOCZcmI5pWRGXeBiSWtGiJywRqBSMf0jj1xYlAYs8V1MbPSU9fzskH4h0IhGDCNZVybYg1xdpRgpBDC6YB7dYj6CdEQzlmc8KMx58yEF6fH0bHnHFRVltW4Yk75iMySDuEz4rAdmPEDl6PDxgudD/F552F4Rt2LVjiRmcIp692d5uUuXKl+UAu2Xt9jxbVWAnl9YxxncfrA51eBzqd7p5O29lAAEZGHaCif2CswmhJXrBYj/TMlysl4/mvdutwVdGGCzipDtfSe3FHmCmBDgPdUkC43R6w229qWhExA1myA28Gp5PJlBYKOpftF/9CzfQg15/DZqbfH0AVR31GliUtpUomHHMazZwOhws8+I4FjBmxqYVALOoS3rCxtQKV8VU8TUjsQGgITTb32inOjzAWfvuhacUY1XKnO82S/gY0Vu/ZiX6zH3m3dZFTrgiK6rJCnce6jwVT/lsCb4HFGBKrCOY3SLoC3Hv+nMVc4gBFJ7ce7zNfg//j8zcqSb6prfHbEQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>initialisiereVariablen</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="outputDoc_erfolgreich_1">
+      <string></string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="76">
+        <entry>
+          <string>erfolgreich</string>
+          <string></string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="outputDoc_erfolgreich_0">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>bbdff0ef-1455-4002-bf06-7fdd3e45d95d</string>
+    </userobject>
+  </sib>
+  <edge id="77">
+    <source>a9997668-01ce-45e4-a7a9-f30457c307e4</source>
+    <target>d9eb537a-a7fa-4565-adb2-b40b2406b90a</target>
+    <point>75.0,420.0</point>
+    <point>189.0,609.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>success</branch>
+  </edge>
+  <sib id="78">
+    <id>f472880d-a111-4a74-ac00-493e8d96ffb1</id>
+    <name>ServiceGraph_41</name>
+    <label>whereIsCellLocated</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>278.0,376.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="79">
+        <ContextKeyFoundation id="80">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="81">
+        <ContextKeyFoundation id="82">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="83">
+        <ContextKeyFoundation id="84">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="85">
+        <ContextKeyFoundation id="86">
+          <key>1071e2ea-56e2-4c88-b17a-02a9fd059a69</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>Ecke</finalbranches>
+    <finalbranches>Mitte</finalbranches>
+    <finalbranches>Rand</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6473&quot; sodipodi:docname=&quot;isedgeorcorner.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6475&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6481&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6491&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective2841&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;1.979899&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;-19.567797&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;120.79097&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6478&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-358.25,-515.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g3141-5-01-2-8-2&quot; transform=&quot;translate(136.59891,433.5781)&quot;/&gt;
+    &lt;g id=&quot;g2906&quot;&gt;
+      &lt;rect x=&quot;359&quot; y=&quot;516.36218&quot; width=&quot;32&quot; style=&quot;opacity:0.98000004;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7979999&quot; id=&quot;rect8783-6-3-6-3&quot; height=&quot;32&quot;/&gt;
+      &lt;rect x=&quot;362.8783&quot; y=&quot;520.58997&quot; width=&quot;23.880796&quot; style=&quot;opacity:0.98000004;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none&quot; ry=&quot;0&quot; height=&quot;23.437189&quot; id=&quot;rect4034-1-7&quot;/&gt;
+      &lt;rect x=&quot;363.2829&quot; width=&quot;7.8644104&quot; y=&quot;520.49438&quot; height=&quot;7.8644104&quot; id=&quot;rect8580-5-1-6-7&quot; style=&quot;opacity:0.98000004;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.24576287;display:inline;enable-background:new&quot;/&gt;
+      &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g4019-4-4&quot; transform=&quot;matrix(0.7408969,0,0,0.7408969,183.60457,-83.947694)&quot;&gt;
+        &lt;g id=&quot;g8733-3-6&quot; transform=&quot;translate(601.73669,90.645647)&quot;&gt;
+          &lt;rect width=&quot;10.614717&quot; x=&quot;-348.77603&quot; id=&quot;rect8580-5-1-6&quot; y=&quot;746.78131&quot; height=&quot;10.614717&quot; style=&quot;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.33170995&quot;/&gt;
+          &lt;g id=&quot;g8668-8-9&quot; transform=&quot;translate(42.805214,-6.5659916)&quot;&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-6-9-2&quot; d=&quot;m -402.21254,731.7633 0,31.6304&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-3-0&quot; d=&quot;m -391.54589,731.7633 0,31.63041&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-5-1-1&quot; d=&quot;m -370.21254,731.7633 0,31.6304&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-5-9-4&quot; d=&quot;m -380.87921,731.7633 0,31.63041&quot;/&gt;
+          &lt;/g&gt;
+          &lt;g id=&quot;g8705-2-8&quot; transform=&quot;translate(45.362154,3.8827684)&quot;&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-6-2&quot; d=&quot;m -404.70635,731.98121 31.50414,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-2-1&quot; d=&quot;m -404.76948,742.64788 31.6304,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-5-8-2&quot; d=&quot;m -404.70636,721.31454 31.50414,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-1-5-7&quot; d=&quot;m -404.70636,753.31454 31.50415,0&quot;/&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+        &lt;rect x=&quot;242.32936&quot; width=&quot;32&quot; y=&quot;815.84296&quot; height=&quot;32&quot; id=&quot;rect8580-6-3&quot; style=&quot;fill:none;stroke:#000000&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="87">
+        <type class="java-class">de.freewarepoint.cr.Field</type>
+        <typeParams id="88"/>
+        <rawType>de.freewarepoint.cr.Field</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputDoc_2">
+      <string></string>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="89">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="90"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="89"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="91">
+        <entry>
+          <string>Rand</string>
+          <string>edge</string>
+        </entry>
+        <entry>
+          <string>Mitte</string>
+          <string>middle</string>
+        </entry>
+        <entry>
+          <string>Ecke</string>
+          <string>corner</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Checks where the cell is located: in either corner, edge or middle of the board.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAihJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkB8VlAaSIoNPAfzBGujp4sv75/Z8RlwK/fvxnYODlwWvDr1y8GNjbc0crGyvZ/9/7tf0Bs/wBfhraWTkmYQxhAaQKm8M+f34zNlfMY7ktgT7Pb2uIYrty4gNMiNzc3hl27duGUFxMTg3tSUUkRLg52AC0SJjEAOSkwMQwSMOqQUYcQAizoAj+B5cCshc0M/3FoePr8ITiL4gIXL17EKw8qZ4hyCDuwMDp/9RzZ5QQR5choGhl1yKhDaFeO4C0nzp1jcDS3wCl/9c5t6pUj+MoBO1NzBtPsWTjlP/cmjZYjow4ZAQ75+fPXgFgO6vmhZN87t+8w2NhaQfodwOyLK4uBHf39B8PlPAc8hv/Bqx+5zwPqfsIdAuwQ39q0cYtybHw0M6h5v3Pvtt/0CpGNGzYzCAoKvH7//gMDE7BXXnX71m3m3q5+ukbLhL5JDFevXGOQkJJsQxkNYGJmalZTVWX0C/QF9vxUGGjRDwaliUcPHzOsW7se7AhVNdVlwEBIQHYICHjz8vL2fv78WYnWoQGKDnl5udYLFy5NYxhsAAAhg8FEUE2fKQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>woLiegtDieZelle</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="92">
+        <entry>
+          <string>Rand</string>
+          <string>The cell is located on an edge.</string>
+        </entry>
+        <entry>
+          <string>Mitte</string>
+          <string>The cell is located in the middle of the board.</string>
+        </entry>
+        <entry>
+          <string>Ecke</string>
+          <string>The cell is located in a corner.</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>98d3645d-1242-4f49-95a7-7f77739e6f8f</string>
+    </userobject>
+  </sib>
+  <sib id="93">
+    <id>2e1b83c5-5413-44c1-bf05-6079d10b84c6</id>
+    <name>ServiceGraph_36</name>
+    <label>isPlacementPossibleForMe</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>262.5,586.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="94">
+        <ContextKeyFoundation id="95">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="96">
+        <ContextKeyFoundation id="97">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="98">
+        <ContextKeyFoundation id="99">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_3">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="100">
+        <ContextKeyFoundation id="101">
+          <key>fc98cb3f-6c77-403c-a952-d9273b9b9531</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="102">
+        <ContextKeyFoundation id="103">
+          <key>375ef853-fa90-45fa-ab7d-0f91c526b9af</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>möglich</finalbranches>
+    <finalbranches>nicht möglich</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputName_3">
+      <string>player</string>
+    </userobject>
+    <userobject key="inputType_3">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="104">
+        <type class="java-class">de.freewarepoint.cr.Player</type>
+        <typeParams id="105"/>
+        <rawType>de.freewarepoint.cr.Player</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6003&quot; sodipodi:docname=&quot;01.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6005&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6011&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6021&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;462&quot; inkscape:zoom=&quot;15.839192&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;367&quot; inkscape:cy=&quot;22.874426&quot; inkscape:window-x=&quot;1381&quot; inkscape:cx=&quot;15.755447&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;611&quot; inkscape:window-maximized=&quot;0&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6008&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-114.67857,-538.46933)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g inkscape:export-xdpi=&quot;90&quot; id=&quot;g6272-0&quot; style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; inkscape:export-filename=&quot;/home/kuehn/vorschlaege_place_atom.png&quot; transform=&quot;translate(52.706981,-630.01381)&quot; inkscape:export-ydpi=&quot;90&quot;&gt;
+      &lt;g id=&quot;g9863-3&quot; transform=&quot;translate(81.745879,-73.983659)&quot;&gt;
+        &lt;rect x=&quot;-19.024288&quot; y=&quot;1243.2168&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7979999&quot; height=&quot;32&quot; id=&quot;rect8783-6-8-03-3-4&quot;/&gt;
+        &lt;g id=&quot;g6226-7&quot; transform=&quot;translate(-30.749999,-28.35498)&quot;&gt;
+          &lt;g style=&quot;fill:#ffffff;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none&quot; id=&quot;g6215-9&quot;&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-0-2-1-6&quot; d=&quot;m 24.630851,1295.9978 6.189722,0 0.893361,5.2964 -7.976445,0 0.893362,-5.2964 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-7-4-0-6-0&quot; d=&quot;m 18.441129,1295.9978 6.189722,0 -0.893362,5.2964 -7.976446,0 2.680086,-5.2964 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-2-4-4-3-6&quot; d=&quot;m 30.820573,1295.9978 6.189721,0 2.680084,5.2964 -7.976444,0 -0.893361,-5.2964 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-4-6-2&quot; d=&quot;m 25.312673,1291.8894 4.794106,0 0.691932,4.1021 -6.177971,0 0.691933,-4.1021 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-7-40-1-7&quot; d=&quot;m 20.518567,1291.8894 4.794106,0 -0.691933,4.1021 -6.177971,0 2.075798,-4.1021 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; id=&quot;rect10685-2-1-2-6&quot; d=&quot;m 30.106779,1291.8894 4.794105,0 2.075798,4.1021 -6.177971,0 -0.691932,-4.1021 z&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; d=&quot;m 25.312672,1291.8894 4.794107,0 -0.688068,-4.1021 -3.418,0 -0.688039,4.1021 z&quot; id=&quot;rect10685-4-6-7-3&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; d=&quot;m 20.518566,1291.8894 4.794106,0 0.686973,-4.1021 -3.556877,0 -1.924202,4.1021 z&quot; id=&quot;rect10685-7-40-1-9-0&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+            &lt;path sodipodi:nodetypes=&quot;ccccc&quot; d=&quot;m 34.89979,1291.8894 -4.794106,0 -0.686973,-4.1021 3.556877,0 1.924202,4.1021 z&quot; id=&quot;rect10685-7-40-1-9-3-9&quot; style=&quot;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:4;stroke-dasharray:none;display:inline&quot;/&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+        &lt;path sodipodi:nodetypes=&quot;cccccccc&quot; d=&quot;m -8.2466026,1253.8882 0,3.401 -1.3969986,-0.4516 2.681108,4.6355 2.6740525,-4.6355 -1.3899428,0.4516 0,-3.401 -2.5682191,0 z&quot; id=&quot;path10930-57-9-9&quot; style=&quot;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.55338073;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot;/&gt;
+        &lt;path transform=&quot;matrix(0,0.84812197,-0.84812197,0,296.55247,1023.9572)&quot; style=&quot;fill:#204a87;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.99981277999999996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; sodipodi:cx=&quot;265.03879&quot; sodipodi:cy=&quot;357.87128&quot; id=&quot;path9193-4-0-6-1-8-4-9&quot; d=&quot;m 269.58447,357.87128 c 0,2.51051 -2.03517,4.54568 -4.54568,4.54568 -2.51052,0 -4.54569,-2.03517 -4.54569,-4.54568 0,-2.51052 2.03517,-4.54569 4.54569,-4.54569 2.51051,0 4.54568,2.03517 4.54568,4.54569 z&quot; sodipodi:rx=&quot;4.5456862&quot; sodipodi:ry=&quot;4.5456862&quot; sodipodi:type=&quot;arc&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="87"/>
+    </userobject>
+    <userobject key="inputDoc_2">
+      <string></string>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputDoc_3">
+      <string></string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="89"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="89"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="106">
+        <entry>
+          <string>nicht möglich</string>
+          <string>impossible</string>
+        </entry>
+        <entry>
+          <string>möglich</string>
+          <string>possible</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Checks whether or not the player can place an atom on a specific cell. This is only possible if the cell does not belong to the opponent, ergo either belongs to the player or nobody.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAABRRJREFUeNrNmAtMk1cUx/+0ICgB6+ZiQKHFUl5GJ5HHNsMC0WwglFHYYKDbYEMJDZlgNiOaEXVu7iWD+WBmc7qXEkBEq9YiGyIZQmkTeQ2hBNQJc2sxXVGYlra73+f8bG2rgNV4ktve13f76znn3nPu54S7kkHKB6Tw8YjFycmp32QybSXVg0zf/9/rSdnG5fpeT0lNniEQCFiurtMcDmAwGDDQP4Cqympjb4+KReQLo9G48Q4IpYkDK1dl6N/fsM6FzWbbXEQikaK88gSuDv2J6TPcEZ+YgNzs1ClD7fj8Sxz47ge4uLi8o9frf6R+tYLH47ru3FPiZg9i/XsbIW3sxdjTL8J17nMwcQLR+tsZnDouQbIoFuSfTRrkhaXP42xDI3S6kQgCUkKtwE9+TTTdHoT0pAxXtQDL5yWwp7nTfSz2NMwKWoEhnTP27quYslZeSRJidHTUi16T+qB8wt7kUwTEeV6UzbGZguWQSWunDOI334+p0wD3c8yhwSGM6m2PU5q5ceP6lEHMrfBA43rP9YbXU7bHjIZb4Mz0dMiOeiBI7IqX4aI+RxzSyXo7Djbg9VTh4wGJIyBs07/gGprh6WZgNMH+qwH8Z0wQJTsGxHkik7Z/uo3ePZTjGv5Ww9PTA/EpsUhIjIe93eZwjZhrhpJxvR7Xhq+hra3DYRCTAqFEp9Oh50IPXRwdAlh4QmTCIDnZYmi1/zDtSxcv4928gscPErIgBH2qPqbd1dmFlavSHQbiPNGJb2e/RaLl9xgfH6fbJhOQnZWD8Igwuq1oVSIsfAldvzI4CMmJmkn50YQ10ipXICQkGO7u7lRsQl3dacyePRvylla6LA5djOrDR+j6muw1aDknfzSmOVxZgy1btiIgIADp6elQqVQICgpixnlcHpqbm+l6ZmYmqiqqHQ9CBT4q50hKSsKcOXNQWFiIs42NiIyMZOaEh4eRs6XtNhSPR8ziiiuXBx0LcpxkZ+Jc8e38RCqFm5sblAol0tLSmDkpKa9CLr9rjpycHJySnnacs2q1Wuz6ajcO/nQIeXl5TL9Go0FCQoLF3OHhYVpjdDwyGuk5sXHLMM/X5+FBKsoPo6ioCJs3b2b6+vr6EBcXR/uJuSxcuBAdHR1mea4EhRuK8O3+vQ/cQfc1zcjICI4eOYb8/HyL/traWoSGhlrNJ2mfRVsoFGL5suUoLd75cD5y6OcKZGVlgcPhWPTLZDJkZGRYzR8bG7OO3Nu340J3D379pX5qptFohrGzdBcNUVZWZuULTU1NtEOai1qtZnzkXk2tzVsHWd1JkvF5TQ5kz66vUVxcjIKCgnsANYiKikJ3d7fVMz4+Pqg/Uw9/vr/V2KZNG9FJwoI9ENo0N2/esuhsJ7kGpc7c3FyrBxQKBfh827fSwMBA2n9syerVa1BdecTq5mcBYh7MKPnk489QWlJKnxe2QKjdYUuio6MtzhJzoQ65GeSGONB/kemjrp8MCLkQ9x47etxwh66ivAohwSGIiYmxuaBSqYRIJLI5lpqaSmKS/RgjFoshPSFj2kdrJJg1i6O+c/dNJKXqjTdXIm+tGJFLlsLPjwcvb2+bi7W3tWPRs4vs/pi8RY6IyAjbl3ASuVvI+PlOBdkIu7Hvm/0IXhBc0N3VvZt5G8Bisz4MEAicEkVCEl39HZqPmvvE5Ut/0FG6q/N3CAIEB1W9qkzz1xKUxHt4eOwgh9j8R50WUubgcn0/On++fQ+eNPkPqo7Vy11cI4QAAAAASUVORK5CYII=</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>istPlatzierungMoeglich</string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="107">
+        <entry>
+          <string>nicht möglich</string>
+          <string>It is not possible for the player to place on that cell.</string>
+        </entry>
+        <entry>
+          <string>möglich</string>
+          <string>It is possible for the player to place on that cell.</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>ac8b86f4-196b-430e-ab8c-4d79b3dc73e2</string>
+    </userobject>
+  </sib>
+  <edge id="108">
+    <source>d9eb537a-a7fa-4565-adb2-b40b2406b90a</source>
+    <target>2e1b83c5-5413-44c1-bf05-6079d10b84c6</target>
+    <point>189.0,609.0</point>
+    <point>324.0,609.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>erfolgreich</branch>
+  </edge>
+  <edge id="109">
+    <source>2e1b83c5-5413-44c1-bf05-6079d10b84c6</source>
+    <target>f472880d-a111-4a74-ac00-493e8d96ffb1</target>
+    <point>324.0,609.0</point>
+    <point>324.0,399.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>möglich</branch>
+  </edge>
+  <edge id="110">
+    <source>2e1b83c5-5413-44c1-bf05-6079d10b84c6</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <point>324.0,609.0</point>
+    <point>1074.0,624.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>nicht möglich</branch>
+  </edge>
+  <edge id="111">
+    <source>f472880d-a111-4a74-ac00-493e8d96ffb1</source>
+    <target>f39390d8-d10d-4266-b138-e6bbc095c5a4</target>
+    <point>324.0,399.0</point>
+    <point>504.0,279.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>Ecke</branch>
+  </edge>
+  <edge id="112">
+    <source>f472880d-a111-4a74-ac00-493e8d96ffb1</source>
+    <target>e2b620fb-3779-405f-8554-2cad8174f180</target>
+    <point>324.0,399.0</point>
+    <point>504.0,504.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>Rand</branch>
+  </edge>
+  <edge id="113">
+    <source>f39390d8-d10d-4266-b138-e6bbc095c5a4</source>
+    <target>59c830dc-153c-4bc2-871b-584d1e8b7d2b</target>
+    <point>504.0,279.0</point>
+    <point>504.0,399.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>success</branch>
+  </edge>
+  <edge id="114">
+    <source>e2b620fb-3779-405f-8554-2cad8174f180</source>
+    <target>59c830dc-153c-4bc2-871b-584d1e8b7d2b</target>
+    <point>504.0,504.0</point>
+    <point>504.0,399.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>success</branch>
+  </edge>
+  <edge id="115">
+    <source>f472880d-a111-4a74-ac00-493e8d96ffb1</source>
+    <target>59c830dc-153c-4bc2-871b-584d1e8b7d2b</target>
+    <point>324.0,399.0</point>
+    <point>504.0,399.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>Mitte</branch>
+  </edge>
+  <sib id="116">
+    <id>f39390d8-d10d-4266-b138-e6bbc095c5a4</id>
+    <name>ServiceGraph_12</name>
+    <label>addXBonus (50)</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>466.5,256.5</position>
+    <parameter name="input_0">
+      <int>50</int>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="117">
+        <ContextKeyFoundation id="118">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="119">
+        <ContextKeyFoundation id="120">
+          <key>0c388046-89a6-4550-aafb-8007ad82620d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="121">
+        <ContextKeyFoundation id="122">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputDoc_success_0">
+      <string>The new cell value.</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string>The current cell value that will be increased.</string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>result</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;addbonus.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;3.6340172&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;31.7828&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g id=&quot;g6867-1&quot;&gt;
+        &lt;rect x=&quot;150.18663&quot; y=&quot;940.56976&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-1&quot; height=&quot;32&quot;/&gt;
+        &lt;text x=&quot;153.06326&quot; xml:space=&quot;preserve&quot; id=&quot;text8785-4&quot; y=&quot;965.42712&quot; style=&quot;font-size:23.29000092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial&quot;&gt;&lt;tspan x=&quot;153.06326&quot; y=&quot;965.42712&quot; id=&quot;tspan8787-7&quot; sodipodi:role=&quot;line&quot;&gt;+n&lt;/tspan&gt;&lt;/text&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="123">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="124"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>bonus</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="125"/>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Increases the current cell value by a determined bonus.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAtBJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkBcllADlEOCg3kpKcjYMA/wJfh27dvkkCmOsghDKA0wTAAQFFJEcYUATuAFgmTGIAcCwMSEtjAqENGHUIVhzx88JChrbmDYcO6DQPrkOfPXzAsX7aS4djREyQZDvLAtavXGYD1CUG1LNTy0cYNmxnaWzoZOnvaGF6/es0wfepMhldAGmwJCwtDWEQIQ1FJIc4yi2oOAdWsX79+ZVg4fzHD6VNnGIyMDRmsba0Zfnz/zrBz526GZUtWMHz//oOhqaWeeIeADEUOzj9//kLEgWLAmhJFLbDSQuGDHNHW2cLg6+cNFwsKCWRITcpg2LxxC0N9Yw0DtnoNq0OKC8oY9u7ZhyG+a8duMEYGh48fYBAQ4IfzDQz1URwBAhaW5gzc3NzgELt+7QaDjq42cQ5R11ADa4KBT58+gROdiIgwg4qqCopaNjbUEFFWVsIa9FramuDQ+vLlC/FRk5mdjsI/cfwkOGhNzUwYuno78KYVNjY2ghXcaMk6pBxCVDmirq7GMHFKH4OYmNjAOkRQSJDBydlxNGpIAkHBAWCMC8yeN4NwiPz8+WtAQgFUlaA45M7tOwPiEFD3EwpeMAE7xLc2bdzyF9l19AKgpoOgoACorXCXCdgrr7p96zZzb1c/XR0xoW8Sw9Ur1xgkpCTbQBU8fDSAiZmpWU1VldEv0BfY81NhoEUXFBTqjx4+Zli3dj3YEapqqsuAgZCAPCwBAt68vLy9nz9/VqJ1aICiQ15ervXChUvT0MdHkIE8ECvQ0B0vQGkCFB3IggAL/ffVGThmEQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string>The bonus that has to be set to increase the cell value.</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>Add</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>f41e17d6-4919-43d0-a871-22be563716d7</string>
+    </userobject>
+  </sib>
+  <sib id="126">
+    <id>e2b620fb-3779-405f-8554-2cad8174f180</id>
+    <name>ServiceGraph_13</name>
+    <label>addXBonus (25)</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>466.5,481.5</position>
+    <parameter name="input_0">
+      <int>25</int>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="127">
+        <ContextKeyFoundation id="128">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="129">
+        <ContextKeyFoundation id="130">
+          <key>0c388046-89a6-4550-aafb-8007ad82620d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="131">
+        <ContextKeyFoundation id="132">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputDoc_success_0">
+      <string>The new cell value.</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string>The current cell value that will be increased.</string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>result</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;addbonus.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;3.6340172&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;31.7828&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g id=&quot;g6867-1&quot;&gt;
+        &lt;rect x=&quot;150.18663&quot; y=&quot;940.56976&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-1&quot; height=&quot;32&quot;/&gt;
+        &lt;text x=&quot;153.06326&quot; xml:space=&quot;preserve&quot; id=&quot;text8785-4&quot; y=&quot;965.42712&quot; style=&quot;font-size:23.29000092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial&quot;&gt;&lt;tspan x=&quot;153.06326&quot; y=&quot;965.42712&quot; id=&quot;tspan8787-7&quot; sodipodi:role=&quot;line&quot;&gt;+n&lt;/tspan&gt;&lt;/text&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>bonus</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="133"/>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Increases the current cell value by a determined bonus.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAtBJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkBcllADlEOCg3kpKcjYMA/wJfh27dvkkCmOsghDKA0wTAAQFFJEcYUATuAFgmTGIAcCwMSEtjAqENGHUIVhzx88JChrbmDYcO6DQPrkOfPXzAsX7aS4djREyQZDvLAtavXGYD1CUG1LNTy0cYNmxnaWzoZOnvaGF6/es0wfepMhldAGmwJCwtDWEQIQ1FJIc4yi2oOAdWsX79+ZVg4fzHD6VNnGIyMDRmsba0Zfnz/zrBz526GZUtWMHz//oOhqaWeeIeADEUOzj9//kLEgWLAmhJFLbDSQuGDHNHW2cLg6+cNFwsKCWRITcpg2LxxC0N9Yw0DtnoNq0OKC8oY9u7ZhyG+a8duMEYGh48fYBAQ4IfzDQz1URwBAhaW5gzc3NzgELt+7QaDjq42cQ5R11ADa4KBT58+gROdiIgwg4qqCopaNjbUEFFWVsIa9FramuDQ+vLlC/FRk5mdjsI/cfwkOGhNzUwYuno78KYVNjY2ghXcaMk6pBxCVDmirq7GMHFKH4OYmNjAOkRQSJDBydlxNGpIAkHBAWCMC8yeN4NwiPz8+WtAQgFUlaA45M7tOwPiEFD3EwpeMAE7xLc2bdzyF9l19AKgpoOgoACorXCXCdgrr7p96zZzb1c/XR0xoW8Sw9Ur1xgkpCTbQBU8fDSAiZmpWU1VldEv0BfY81NhoEUXFBTqjx4+Zli3dj3YEapqqsuAgZCAPCwBAt68vLy9nz9/VqJ1aICiQ15ervXChUvT0MdHkIE8ECvQ0B0vQGkCFB3IggAL/ffVGThmEQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string>The bonus that has to be set to increase the cell value.</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>Add</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>f41e17d6-4919-43d0-a871-22be563716d7</string>
+    </userobject>
+  </sib>
+  <sib id="134">
+    <id>59c830dc-153c-4bc2-871b-584d1e8b7d2b</id>
+    <name>ServiceGraph_35</name>
+    <label>isCriticalCell</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>477.5,376.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="135">
+        <ContextKeyFoundation id="136">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="137">
+        <ContextKeyFoundation id="138">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="139">
+        <ContextKeyFoundation id="140">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="141">
+        <ContextKeyFoundation id="142">
+          <key>4e6be3a4-02dc-4634-b0ae-8a9f402d7406</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>ist kritisch</finalbranches>
+    <finalbranches>nicht kritisch</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg9302&quot; sodipodi:docname=&quot;critical.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs9304&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective9310&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective9269&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;15.839192&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;19.876253&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;29.740767&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata9307&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-437.53571,-432.75504)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;rect x=&quot;438.28571&quot; y=&quot;433.50504&quot; width=&quot;32&quot; style=&quot;opacity:0.98000004;fill:#d3d7cf;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-2-1-5-0-0&quot; height=&quot;32&quot;/&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g9222&quot; transform=&quot;matrix(1.0074412,0,0,1.0074412,775.75915,-273.75663)&quot;&gt;
+      &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g9837-9-25&quot; transform=&quot;matrix(1.4627006,0,0,1.4627006,-1327.2656,-586.80454)&quot;&gt;
+        &lt;rect x=&quot;680.4743&quot; width=&quot;17.551758&quot; y=&quot;883.22076&quot; height=&quot;17.551758&quot; id=&quot;rect8580-3-7-7-5&quot; style=&quot;fill:#ffffff;stroke:#000000;stroke-width:0.54849243&quot;/&gt;
+        &lt;g id=&quot;g9793-0-2&quot; transform=&quot;matrix(0.54849242,0,0,0.54849242,297.97346,423.86683)&quot;&gt;
+          &lt;g id=&quot;g8746-7-9-3&quot; transform=&quot;translate(1099.5801,116.17004)&quot;&gt;
+            &lt;g id=&quot;g8733-1-3-2&quot; transform=&quot;translate(-42.805215,-3.8827723)&quot;&gt;
+              &lt;rect width=&quot;10.614717&quot; x=&quot;-348.71463&quot; id=&quot;rect8580-5-2-0-4&quot; y=&quot;735.85583&quot; height=&quot;10.614717&quot; style=&quot;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.33170995&quot;/&gt;
+              &lt;g id=&quot;g8668-7-4-4&quot; transform=&quot;translate(42.805214,-6.5659916)&quot;&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-6-4-5-4&quot; d=&quot;m -402.21254,731.7633 0,31.6304&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-0-6-6&quot; d=&quot;m -391.54589,731.7633 0,31.63041&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-5-2-0-0&quot; d=&quot;m -370.21254,731.7633 0,31.6304&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-5-7-4-1&quot; d=&quot;m -380.87921,731.7633 0,31.63041&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g8705-0-8-07&quot; transform=&quot;translate(45.362154,3.8827684)&quot;&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-7-4-9&quot; d=&quot;m -404.70635,731.98121 31.50414,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-9-1-4&quot; d=&quot;m -404.76948,742.64788 31.6304,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-5-1-0-0&quot; d=&quot;m -404.70636,721.31454 31.50414,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-1-1-1-1&quot; d=&quot;m -404.70636,753.31454 31.50415,0&quot;/&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;rect x=&quot;-480.58008&quot; y=&quot;42.829956&quot; transform=&quot;translate(78.367537,678.48458)&quot; width=&quot;32&quot; style=&quot;fill:none;stroke:#000000&quot; id=&quot;rect8580-3-1-7&quot; height=&quot;32&quot;/&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g9215&quot; transform=&quot;translate(44.437079,-3.8785396)&quot;&gt;
+        &lt;g id=&quot;g9248&quot; transform=&quot;translate(-0.54821976,0.52088067)&quot;&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -368.80515,719.34203 -1.82648,1.05936 -1.78996,1.02284 1.78996,1.05936 1.82648,1.05936 0,-1.24201 2.41096,0 c 0.47559,0 0.84019,-0.40114 0.84019,-0.87671 0,-0.47558 -0.3646,-0.84019 -0.84019,-0.84019 l -2.41096,0 0,-1.24201 z&quot; id=&quot;path9132-3&quot;/&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -361.08005,715.43243 -1.05936,-1.82648 -1.02284,-1.78996 -1.05936,1.78996 -1.05936,1.82648 1.24201,0 0,2.41097 c 0,0.47558 0.40115,0.84018 0.87671,0.84018 0.47558,0 0.84019,-0.3646 0.84019,-0.84018 l 0,-2.41097 1.24201,0 z&quot; id=&quot;path9132-3-7&quot;/&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -365.28097,727.06714 1.05936,1.82648 1.02283,1.78996 1.05937,-1.78996 1.05936,-1.82648 -1.24201,0 0,-2.41096 c 0,-0.47561 -0.40114,-0.84019 -0.87672,-0.84019 -0.47556,0 -0.84018,0.36458 -0.84018,0.84019 l 0,2.41096 -1.24201,0 z&quot; id=&quot;path9132-3-1&quot;/&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#3465a4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -357.17044,719.34203 1.82648,1.05936 1.78996,1.02284 -1.78996,1.05936 -1.82648,1.05936 0,-1.24201 -2.41097,0 c -0.47558,0 -0.84018,-0.40114 -0.84018,-0.87671 0,-0.47558 0.3646,-0.84019 0.84018,-0.84019 l 2.41097,0 0,-1.24201 z&quot; id=&quot;path9132-3-6&quot;/&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g style=&quot;font-size:38.34651184px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:AR PL UKai CN;-inkscape-font-specification:AR PL UKai CN&quot; id=&quot;text9254&quot; transform=&quot;translate(773.38471,-268.13882)&quot;/&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="143">
+        <type class="java-class">de.freewarepoint.cr.Field</type>
+        <typeParams id="144"/>
+        <rawType>de.freewarepoint.cr.Field</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputDoc_2">
+      <string></string>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="145">
+        <entry>
+          <string>ist kritisch</string>
+          <string>is critical</string>
+        </entry>
+        <entry>
+          <string>nicht kritisch</string>
+          <string>is not critical</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Checks if a cell on the board is critical. A cell is considered critical if and only if one atom is missing for it to reach its capacity (and explode).</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAABEtJREFUeNrNWG1MU1cYftreQnFtKaFOjJGK9LLUTgJuQ9yWmfFnDOIXC+qAMYSZBVxmdM5MDBsKc9kGinNzH1Y+XNQZHCxZN/GPf8bQqJugqJEW2iKtuo5A17pR+7Vzrspg1cIohb3J6XvOe8655+1z3vuc814e/pEcUspIiUeIhcfj9fh8vp2kemTYdk9vJaVSoYh1vLQ6awbLsvzw8LBJd8Dj8cDQY8DxxiZv1zUdn0iV1+stve8IRaI+Ny/H9fY7m4UCgQBTIdUf70F97SEIhcIil8v1NUO3Y948xW3ixCPPLF4qJJAFfADtJ9AGNYb2nTnf6jp39jxByFh535H4rOxVXooEfYDdbg+4SHp6OlpaWoIaI5VKOb1i5TLsqvxwNq3z6Q+NCUyDxM2PG65zDgQTmA6HY8JzR8ZjUEgMDQ0hJiYGf9gdQaMTlCO7930JkVSO7RXV0+dI7/VefKWpQ0JmGZoaG2EwGafeEZvNhgWqBfjdrAcjksBmNWKh+nH09/dPrSORkZFckCY/mcq11UkpXDs6OnrCjjD/JiLKAYGk/dcLWJKcwtX1ZjNYlRs93d3DNiomiyngcwitB3aEMt5YZPX0ohQ8t0nD1c27ijgdERmDpZsPDI+58HnxuAjtP28NDUyxWOxnZ5OeRd+paqKX+PXJZDLs3Vszbp5hxuKJhoZ67NuvgThq5qg+t8uJpzLWcWWkjRGG32VNVo0fz/bh6LEXkLN2NQoLix74Z8Z0hDohl8sRIYmCMuNdWLQVmK18Am63G/qyfDA8J/J3Hhs1p6E8Dz5+GDnS+fD8NQBJ6kaESRdiz6cfobR0e0B0Hro1IpEI1wx9WJS2Bl0nPoDX7YQ4ghwFRDOMAAmL/YMxLikNDKFtnscJyt5OuxW6E1VIy8iC5cbNib++c2bKcPJwFTaUlJD1b0N36TTYR6XIf68OqZnr/ManZRejoPwQkudGQzIjAn92foNTJ5txsKYCUok4eB4p3fIGEhMT/ext39eitiwXrd9p/Pp+u2nGD82HoXpMOXmERrepra3Nz268+DOUL25D75UzDzyVY+fGho7QjGYTpF8Uc/U7gzfuatsttN+zUbnUrQ89odEFtFotZs2KgYARksBl4PV50NrRgcHBQa493hvauHnkoTCSxcp37IBG28G15epMrHk+nrNP+TVg/WtF8Nxqh3vITvQveGtjyfTcR2gAF68vgKGlEq/mvRyQNUN+QysqLIR9wIo3N7we9A2N21Sn886EUQnm8kwzv1GI6HX66cgmuPRzxBvL61SyyvjGpqMCmumNNXmyMr3T535yrc3OhcVssQ4MDM6ho5eTcvyV/Fxs3bZlytCo2f0JDh6og0qt2nT18tXPhr8G8AX8igSW5S1ftYxkfkqEIhmnMdFruo6mb5txufMK2AT2iK5LVzDyswSVTIlEUk1y3/mhRiMqSmZVKGLfb2+/uB//N/kbhECf5y4uIfEAAAAASUVORK5CYII=</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>istKritischeZelle</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="146">
+        <entry>
+          <string>ist kritisch</string>
+          <string>The cell is critical.</string>
+        </entry>
+        <entry>
+          <string>nicht kritisch</string>
+          <string>The cell is not critical.</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>6b9ea35d-140c-43b5-90f1-e8883c83b8b3</string>
+    </userobject>
+  </sib>
+  <sib id="147">
+    <id>6807e931-b2e4-4881-a011-198d0d1498b9</id>
+    <name>ServiceGraph_14</name>
+    <label>addXBonus (60)</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>646.5,316.5</position>
+    <parameter name="input_0">
+      <int>60</int>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="148">
+        <ContextKeyFoundation id="149">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="150">
+        <ContextKeyFoundation id="151">
+          <key>0c388046-89a6-4550-aafb-8007ad82620d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="152">
+        <ContextKeyFoundation id="153">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputDoc_success_0">
+      <string>The new cell value.</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string>The current cell value that will be increased.</string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>result</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;addbonus.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;3.6340172&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;31.7828&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g id=&quot;g6867-1&quot;&gt;
+        &lt;rect x=&quot;150.18663&quot; y=&quot;940.56976&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-1&quot; height=&quot;32&quot;/&gt;
+        &lt;text x=&quot;153.06326&quot; xml:space=&quot;preserve&quot; id=&quot;text8785-4&quot; y=&quot;965.42712&quot; style=&quot;font-size:23.29000092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial&quot;&gt;&lt;tspan x=&quot;153.06326&quot; y=&quot;965.42712&quot; id=&quot;tspan8787-7&quot; sodipodi:role=&quot;line&quot;&gt;+n&lt;/tspan&gt;&lt;/text&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>bonus</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="154"/>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Increases the current cell value by a determined bonus.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAtBJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkBcllADlEOCg3kpKcjYMA/wJfh27dvkkCmOsghDKA0wTAAQFFJEcYUATuAFgmTGIAcCwMSEtjAqENGHUIVhzx88JChrbmDYcO6DQPrkOfPXzAsX7aS4djREyQZDvLAtavXGYD1CUG1LNTy0cYNmxnaWzoZOnvaGF6/es0wfepMhldAGmwJCwtDWEQIQ1FJIc4yi2oOAdWsX79+ZVg4fzHD6VNnGIyMDRmsba0Zfnz/zrBz526GZUtWMHz//oOhqaWeeIeADEUOzj9//kLEgWLAmhJFLbDSQuGDHNHW2cLg6+cNFwsKCWRITcpg2LxxC0N9Yw0DtnoNq0OKC8oY9u7ZhyG+a8duMEYGh48fYBAQ4IfzDQz1URwBAhaW5gzc3NzgELt+7QaDjq42cQ5R11ADa4KBT58+gROdiIgwg4qqCopaNjbUEFFWVsIa9FramuDQ+vLlC/FRk5mdjsI/cfwkOGhNzUwYuno78KYVNjY2ghXcaMk6pBxCVDmirq7GMHFKH4OYmNjAOkRQSJDBydlxNGpIAkHBAWCMC8yeN4NwiPz8+WtAQgFUlaA45M7tOwPiEFD3EwpeMAE7xLc2bdzyF9l19AKgpoOgoACorXCXCdgrr7p96zZzb1c/XR0xoW8Sw9Ur1xgkpCTbQBU8fDSAiZmpWU1VldEv0BfY81NhoEUXFBTqjx4+Zli3dj3YEapqqsuAgZCAPCwBAt68vLy9nz9/VqJ1aICiQ15ervXChUvT0MdHkIE8ECvQ0B0vQGkCFB3IggAL/ffVGThmEQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string>The bonus that has to be set to increase the cell value.</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>Add</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>f41e17d6-4919-43d0-a871-22be563716d7</string>
+    </userobject>
+  </sib>
+  <edge id="155">
+    <source>59c830dc-153c-4bc2-871b-584d1e8b7d2b</source>
+    <target>6807e931-b2e4-4881-a011-198d0d1498b9</target>
+    <point>504.0,399.0</point>
+    <point>684.0,339.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>ist kritisch</branch>
+  </edge>
+  <edge id="156">
+    <source>59c830dc-153c-4bc2-871b-584d1e8b7d2b</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <point>504.0,399.0</point>
+    <point>1074.0,624.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>nicht kritisch</branch>
+  </edge>
+  <edge id="157">
+    <source>6807e931-b2e4-4881-a011-198d0d1498b9</source>
+    <target>068aff92-ce72-423f-bcde-9741b87e9e25</target>
+    <point>684.0,339.0</point>
+    <point>849.0,279.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>success</branch>
+  </edge>
+  <sib id="158">
+    <id>068aff92-ce72-423f-bcde-9741b87e9e25</id>
+    <name>ServiceGraph_29</name>
+    <label>isEndangered</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>818.0,256.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="159">
+        <ContextKeyFoundation id="160">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="161">
+        <ContextKeyFoundation id="162">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="163">
+        <ContextKeyFoundation id="164">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_3">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="165">
+        <ContextKeyFoundation id="166">
+          <key>fc98cb3f-6c77-403c-a952-d9273b9b9531</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="167">
+        <ContextKeyFoundation id="168">
+          <key>1e0876da-9a67-42b9-a241-0b4ceed040f8</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>bedroht</finalbranches>
+    <finalbranches>nicht bedroht</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputName_3">
+      <string>player</string>
+    </userobject>
+    <userobject key="inputType_3">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="169">
+        <type class="java-class">de.freewarepoint.cr.Player</type>
+        <typeParams id="170"/>
+        <rawType>de.freewarepoint.cr.Player</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg9302&quot; sodipodi:docname=&quot;endangered.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs9304&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective9310&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective9269&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;4.436973&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;66.66372&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata9307&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-437.53571,-432.75504)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;rect x=&quot;438.28571&quot; y=&quot;433.50504&quot; width=&quot;32&quot; style=&quot;opacity:0.98000004;fill:#d3d7cf;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline;enable-background:new&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-2-1-5-0-0&quot; height=&quot;32&quot;/&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g9222&quot; transform=&quot;matrix(0.75638585,0,0,0.75638585,692.1789,-93.5191)&quot;&gt;
+      &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g9837-9-25&quot; transform=&quot;matrix(1.4627006,0,0,1.4627006,-1327.2656,-586.80454)&quot;&gt;
+        &lt;rect x=&quot;680.4743&quot; width=&quot;17.551758&quot; y=&quot;883.22076&quot; height=&quot;17.551758&quot; id=&quot;rect8580-3-7-7-5&quot; style=&quot;fill:#ffffff;stroke:#000000;stroke-width:0.54849243&quot;/&gt;
+        &lt;g id=&quot;g9793-0-2&quot; transform=&quot;matrix(0.54849242,0,0,0.54849242,297.97346,423.86683)&quot;&gt;
+          &lt;rect width=&quot;10.614717&quot; x=&quot;708.06732&quot; id=&quot;rect8580-5-2-6-2-7-8&quot; y=&quot;858.94379&quot; height=&quot;10.614717&quot; style=&quot;fill:#f03030;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.33170994999999998&quot;/&gt;
+          &lt;rect width=&quot;10.614717&quot; x=&quot;697.33441&quot; id=&quot;rect8580-5-2-6-5-07&quot; y=&quot;848.02155&quot; height=&quot;10.614717&quot; style=&quot;fill:#f03030;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.33170994999999998&quot;/&gt;
+          &lt;g id=&quot;g8746-7-9-3&quot; transform=&quot;translate(1099.5801,116.17004)&quot;&gt;
+            &lt;g id=&quot;g8733-1-3-2&quot; transform=&quot;translate(-42.805215,-3.8827723)&quot;&gt;
+              &lt;rect width=&quot;10.614717&quot; x=&quot;-348.71463&quot; id=&quot;rect8580-5-2-0-4&quot; y=&quot;735.85583&quot; height=&quot;10.614717&quot; style=&quot;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.33170994999999998&quot;/&gt;
+              &lt;g id=&quot;g8668-7-4-4&quot; transform=&quot;translate(42.805214,-6.5659916)&quot;&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-6-4-5-4&quot; d=&quot;m -402.21254,731.7633 0,31.6304&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-0-6-6&quot; d=&quot;m -391.54589,731.7633 0,31.63041&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-5-2-0-0&quot; d=&quot;m -370.21254,731.7633 0,31.6304&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-5-7-4-1&quot; d=&quot;m -380.87921,731.7633 0,31.63041&quot;/&gt;
+              &lt;/g&gt;
+              &lt;g id=&quot;g8705-0-8-07&quot; transform=&quot;translate(45.362154,3.8827684)&quot;&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-7-4-9&quot; d=&quot;m -404.70635,731.98121 31.50414,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-9-1-4&quot; d=&quot;m -404.76948,742.64788 31.6304,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-5-1-0-0&quot; d=&quot;m -404.70636,721.31454 31.50414,0&quot;/&gt;
+                &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-1-1-1-1&quot; d=&quot;m -404.70636,753.31454 31.50415,0&quot;/&gt;
+              &lt;/g&gt;
+            &lt;/g&gt;
+            &lt;rect x=&quot;-480.58008&quot; y=&quot;42.829956&quot; transform=&quot;translate(78.367537,678.48458)&quot; width=&quot;32&quot; style=&quot;fill:none;stroke:#000000&quot; id=&quot;rect8580-3-1-7&quot; height=&quot;32&quot;/&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g9215&quot; transform=&quot;translate(44.437079,-3.8785396)&quot;&gt;
+        &lt;g id=&quot;g9248&quot; transform=&quot;translate(-0.54821976,0.52088067)&quot;&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#980000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -369.17044,723.54295 1.82647,-1.05936 1.78996,-1.02284 -1.78996,-1.05936 -1.82647,-1.05936 0,1.24201 -2.41097,0 c -0.47559,0 -0.84019,0.40114 -0.84019,0.87671 0,0.47558 0.3646,0.84019 0.84019,0.84019 l 2.41097,0 0,1.24201 z&quot; id=&quot;path9132-3&quot;/&gt;
+          &lt;path style=&quot;opacity:0.98000004;fill:#980000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.71887439;stroke-miterlimit:4;stroke-dasharray:none;display:inline;enable-background:new&quot; d=&quot;m -361.08006,727.43243 -1.05936,-1.82648 -1.02283,-1.78996 -1.05937,1.78996 -1.05936,1.82648 1.24201,0 0,2.41096 c 0,0.47561 0.40114,0.84019 0.87672,0.84019 0.47556,0 0.84018,-0.36458 0.84018,-0.84019 l 0,-2.41096 1.24201,0 z&quot; id=&quot;path9132-3-1&quot;/&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g style=&quot;font-size:38.34651184px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:AR PL UKai CN;-inkscape-font-specification:AR PL UKai CN&quot; id=&quot;text9254&quot; transform=&quot;translate(773.38471,-268.13882)&quot;&gt;
+      &lt;path id=&quot;path9259&quot; d=&quot;m -310.62345,729.58969 c -0.42441,-0.44937 -0.63662,-0.98612 -0.63661,-1.61025 -10e-6,-0.62413 0.2122,-1.14839 0.63661,-1.57281 0.44937,-0.44936 0.98612,-0.67405 1.61025,-0.67406 0.62412,10e-6 1.14839,0.2247 1.57281,0.67406 0.44936,0.42442 0.67405,0.94868 0.67406,1.57281 -1e-5,0.62413 -0.2247,1.16088 -0.67406,1.61025 -0.42442,0.42441 -0.94869,0.63662 -1.57281,0.63662 -0.62413,0 -1.16088,-0.21221 -1.61025,-0.63662 m 2.39666,-7.4521 -1.57281,0 c -0.32455,-5.09288 -0.73648,-8.75028 -1.23577,-10.9722 -0.44938,-1.97222 -0.67407,-3.18303 -0.67406,-3.63243 -10e-6,-0.699 0.26212,-1.29816 0.7864,-1.79749 0.47433,-0.44935 1.11094,-0.67404 1.90983,-0.67406 0.79888,2e-5 1.43549,0.22471 1.90984,0.67406 0.52426,0.49933 0.78639,1.09849 0.7864,1.79749 -1e-5,0.4494 -0.22469,1.66021 -0.67406,3.63243 -0.49931,2.22192 -0.91124,5.87932 -1.23577,10.9722&quot;/&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="143"/>
+    </userobject>
+    <userobject key="inputDoc_2">
+      <string></string>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputDoc_3">
+      <string></string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="123"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="171">
+        <entry>
+          <string>nicht bedroht</string>
+          <string>not endangered</string>
+        </entry>
+        <entry>
+          <string>bedroht</string>
+          <string>endangered</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Asserts whether or not a cell has at least one &lt;b&gt;critical opponent&lt;/b&gt; cells as direct neighbor.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAABF5JREFUeNrNWG9sU1UUP++9dsUuLd26lWL6Xlfa15WOD/5bnBgSEiUqso1NmQbEGI3GkBCDhD9x4h9YFTI3URNY/ECIJPuCQlBImBIU4gcRonMM3da6IZ1Fbd2XrbPr63vXe998Xd9atna0jSe5ee/de969v3d+55x77qNgRjbitgc3JxRYKIoaRgjtxbfdyb7/rjtxa7PbuYknWpr1PM/TOl1J3gGIoggjwyPw6fET0tCgn8byniRJrylAiCWObnpmo7Bj96tahmGgGNLR/j4cPfIJaLXaFwRBOEYTOqqq7NFigiCyfcc2qFnhJUDayLOG+ETzhiapUCDEhAhvv9XGXLl8hWIYDbz40vNSw/p6iYw1rq+Hd9oOLFWAAPGJQn05AfHFqdPJ+d/cs5eptFSiB1bWIccyR1JPViiEYypCLDG7r/fHn+S+VBY0qQqPPrxOe6sJ4/E4lJSUZN1PFjnTc0rgOA5uhv5QjZlMpjR9FZCEmIDQ76GMQHw+H7S2tmbdz7KsfHW5nOjSd9+rrOJZ7kaz9elCR8eDq1ZKKktpGPDWeIsPxLPco1qUtdmQTqeDogMpKzOBBUeJ8lztSaelKECIpIYpy7EZdVTOinAEbFm9OqNibzQOo/5gWv/AYH9G/UQikbK4LemwLGtD8wK5g6Zh/9SUOjMiBP2xGIS4u2HxQ1vSJqhGhzJGTVdXV/LearWiVFALombNwAAEoxO3RU1lZUXyfskS6/zUqMKurw/u0WhALwhwODgKwT9PQjgWh1Wbd+UMpNxcjmaAWFBOQOpKS0EjSaDFbQLTU2PlYMWGrQuyiNFolK8Go0HOIzlR0+F0wgGehyi2ynY7B1rPvUAt0stjF4/tzwlIRcU0NebycnQrHZVFBFxB7RwbUyncZbHAeVw/jVy/BnC8ExKBq3AjGICBRdP7y183h+Q0P1fUKFYwV5ghKyAiznhdg4MZFV+uroY1oavQcf0XsGO6WgKXgDOVQbfZOG/UKH5hMBiys8hcgrDTtv86DKV4VxUIdXhzPGdcTArRrN7/+MjhhELRbQEh8qXHA7v8fpjEoD7yenPyk9ra+9Bc4zmn+BhFwQ8p/OdLNLm+8IHLtaCFIpEIkJqVbIJ5AZKrTE5OQuvuN5hvvr5Ak+h5ZdtWcfOzm6Q5geDyDtlYG5V5xn/gfIZUT5Ld56wtnXN6mvWLF76lCQilou9sP8g8tvYRabbjykCmpuLyQ8+5M3knX8wQVaIokY9FqWMy0oA/UDBq7q+rlZbeObP7NjU3SkpeIcfPJBv4QPxUOBwxPdnSTCvmzKfo9XpoaKyXnLwT1jWsRcQ/lHV8+96FhCCEY7FYJ8m9o2N/jz0dnYiSQrcgViE1qtvNI4ejCikgDnZ+CD1nvwKH0/F6JBy5nPwbQDP0PjfPUw1N9fjk54JCHEGJT9z4LQgnPjsJ1/p/Bt7Nd/uH/M+l/pYg8jjeCzrGx8eXFaGgDtvtnK+3t+8Q/N/kXxwBgE94s1xGAAAAAElFTkSuQmCC</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>istBedroht</string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="172">
+        <entry>
+          <string>nicht bedroht</string>
+          <string>None of this cells&apos; neighbors is both critical and belonging to the opponent.</string>
+        </entry>
+        <entry>
+          <string>bedroht</string>
+          <string>At least one direct neighbor cell is critical and belongs to the opponent.</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>9272b36f-86ad-495d-b92e-82be440c6246</string>
+    </userobject>
+  </sib>
+  <edge id="173">
+    <source>068aff92-ce72-423f-bcde-9741b87e9e25</source>
+    <target>7b845771-2c25-4142-b5a7-ad7a2af664be</target>
+    <point>849.0,279.0</point>
+    <point>1074.0,279.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>bedroht</branch>
+  </edge>
+  <edge id="174">
+    <source>068aff92-ce72-423f-bcde-9741b87e9e25</source>
+    <target>64a9c70c-c46e-457a-bc4d-256f1c6a2296</target>
+    <point>849.0,279.0</point>
+    <point>894.0,414.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>nicht bedroht</branch>
+  </edge>
+  <sib id="175">
+    <id>7b845771-2c25-4142-b5a7-ad7a2af664be</id>
+    <name>ServiceGraph_15</name>
+    <label>addXBonus (60)</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>1036.5,256.5</position>
+    <parameter name="input_0">
+      <int>60</int>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="176">
+        <ContextKeyFoundation id="177">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="178">
+        <ContextKeyFoundation id="179">
+          <key>0c388046-89a6-4550-aafb-8007ad82620d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="180">
+        <ContextKeyFoundation id="181">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputDoc_success_0">
+      <string>The new cell value.</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string>The current cell value that will be increased.</string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>result</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;addbonus.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;3.6340172&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;31.7828&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g id=&quot;g6867-1&quot;&gt;
+        &lt;rect x=&quot;150.18663&quot; y=&quot;940.56976&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-1&quot; height=&quot;32&quot;/&gt;
+        &lt;text x=&quot;153.06326&quot; xml:space=&quot;preserve&quot; id=&quot;text8785-4&quot; y=&quot;965.42712&quot; style=&quot;font-size:23.29000092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial&quot;&gt;&lt;tspan x=&quot;153.06326&quot; y=&quot;965.42712&quot; id=&quot;tspan8787-7&quot; sodipodi:role=&quot;line&quot;&gt;+n&lt;/tspan&gt;&lt;/text&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="182">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="183"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>bonus</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="182"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="182"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="184"/>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Increases the current cell value by a determined bonus.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAtBJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkBcllADlEOCg3kpKcjYMA/wJfh27dvkkCmOsghDKA0wTAAQFFJEcYUATuAFgmTGIAcCwMSEtjAqENGHUIVhzx88JChrbmDYcO6DQPrkOfPXzAsX7aS4djREyQZDvLAtavXGYD1CUG1LNTy0cYNmxnaWzoZOnvaGF6/es0wfepMhldAGmwJCwtDWEQIQ1FJIc4yi2oOAdWsX79+ZVg4fzHD6VNnGIyMDRmsba0Zfnz/zrBz526GZUtWMHz//oOhqaWeeIeADEUOzj9//kLEgWLAmhJFLbDSQuGDHNHW2cLg6+cNFwsKCWRITcpg2LxxC0N9Yw0DtnoNq0OKC8oY9u7ZhyG+a8duMEYGh48fYBAQ4IfzDQz1URwBAhaW5gzc3NzgELt+7QaDjq42cQ5R11ADa4KBT58+gROdiIgwg4qqCopaNjbUEFFWVsIa9FramuDQ+vLlC/FRk5mdjsI/cfwkOGhNzUwYuno78KYVNjY2ghXcaMk6pBxCVDmirq7GMHFKH4OYmNjAOkRQSJDBydlxNGpIAkHBAWCMC8yeN4NwiPz8+WtAQgFUlaA45M7tOwPiEFD3EwpeMAE7xLc2bdzyF9l19AKgpoOgoACorXCXCdgrr7p96zZzb1c/XR0xoW8Sw9Ur1xgkpCTbQBU8fDSAiZmpWU1VldEv0BfY81NhoEUXFBTqjx4+Zli3dj3YEapqqsuAgZCAPCwBAt68vLy9nz9/VqJ1aICiQ15ervXChUvT0MdHkIE8ECvQ0B0vQGkCFB3IggAL/ffVGThmEQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string>The bonus that has to be set to increase the cell value.</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>Add</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>f41e17d6-4919-43d0-a871-22be563716d7</string>
+    </userobject>
+  </sib>
+  <edge id="185">
+    <source>7b845771-2c25-4142-b5a7-ad7a2af664be</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <point>1074.0,279.0</point>
+    <point>1074.0,624.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>success</branch>
+  </edge>
+  <sib id="186">
+    <id>64a9c70c-c46e-457a-bc4d-256f1c6a2296</id>
+    <name>ServiceGraph_42</name>
+    <label>whereIsCellLocated</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>1268.0,136.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="187">
+        <ContextKeyFoundation id="188">
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="189">
+        <ContextKeyFoundation id="190">
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_2">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="191">
+        <ContextKeyFoundation id="192">
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="193">
+        <ContextKeyFoundation id="194">
+          <key>1071e2ea-56e2-4c88-b17a-02a9fd059a69</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>Ecke</finalbranches>
+    <finalbranches>Mitte</finalbranches>
+    <finalbranches>Rand</finalbranches>
+    <userobject key="inputName_2">
+      <string>yCoord</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string></string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6473&quot; sodipodi:docname=&quot;isedgeorcorner.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.47 r22583&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6475&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6481&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6491&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective2841&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1001&quot; inkscape:zoom=&quot;1.979899&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;0&quot; inkscape:cy=&quot;-19.567797&quot; inkscape:window-x=&quot;1280&quot; inkscape:cx=&quot;120.79097&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1280&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6478&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-358.25,-515.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g3141-5-01-2-8-2&quot; transform=&quot;translate(136.59891,433.5781)&quot;/&gt;
+    &lt;g id=&quot;g2906&quot;&gt;
+      &lt;rect x=&quot;359&quot; y=&quot;516.36218&quot; width=&quot;32&quot; style=&quot;opacity:0.98000004;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7979999&quot; id=&quot;rect8783-6-3-6-3&quot; height=&quot;32&quot;/&gt;
+      &lt;rect x=&quot;362.8783&quot; y=&quot;520.58997&quot; width=&quot;23.880796&quot; style=&quot;opacity:0.98000004;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none&quot; ry=&quot;0&quot; height=&quot;23.437189&quot; id=&quot;rect4034-1-7&quot;/&gt;
+      &lt;rect x=&quot;363.2829&quot; width=&quot;7.8644104&quot; y=&quot;520.49438&quot; height=&quot;7.8644104&quot; id=&quot;rect8580-5-1-6-7&quot; style=&quot;opacity:0.98000004;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.24576287;display:inline;enable-background:new&quot;/&gt;
+      &lt;g style=&quot;opacity:0.98000004&quot; id=&quot;g4019-4-4&quot; transform=&quot;matrix(0.7408969,0,0,0.7408969,183.60457,-83.947694)&quot;&gt;
+        &lt;g id=&quot;g8733-3-6&quot; transform=&quot;translate(601.73669,90.645647)&quot;&gt;
+          &lt;rect width=&quot;10.614717&quot; x=&quot;-348.77603&quot; id=&quot;rect8580-5-1-6&quot; y=&quot;746.78131&quot; height=&quot;10.614717&quot; style=&quot;fill:#719ecf;fill-opacity:1;fill-rule:evenodd;stroke:#f03030;stroke-width:0.33170995&quot;/&gt;
+          &lt;g id=&quot;g8668-8-9&quot; transform=&quot;translate(42.805214,-6.5659916)&quot;&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-6-9-2&quot; d=&quot;m -402.21254,731.7633 0,31.6304&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-3-0&quot; d=&quot;m -391.54589,731.7633 0,31.63041&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-5-1-1&quot; d=&quot;m -370.21254,731.7633 0,31.6304&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-8-5-9-4&quot; d=&quot;m -380.87921,731.7633 0,31.63041&quot;/&gt;
+          &lt;/g&gt;
+          &lt;g id=&quot;g8705-2-8&quot; transform=&quot;translate(45.362154,3.8827684)&quot;&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-6-2&quot; d=&quot;m -404.70635,731.98121 31.50414,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8584-2-1&quot; d=&quot;m -404.76948,742.64788 31.6304,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-5-8-2&quot; d=&quot;m -404.70636,721.31454 31.50414,0&quot;/&gt;
+            &lt;path style=&quot;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1&quot; id=&quot;path8582-1-5-7&quot; d=&quot;m -404.70636,753.31454 31.50415,0&quot;/&gt;
+          &lt;/g&gt;
+        &lt;/g&gt;
+        &lt;rect x=&quot;242.32936&quot; width=&quot;32&quot; y=&quot;815.84296&quot; height=&quot;32&quot; id=&quot;rect8580-6-3&quot; style=&quot;fill:none;stroke:#000000&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="195">
+        <type class="java-class">de.freewarepoint.cr.Field</type>
+        <typeParams id="196"/>
+        <rawType>de.freewarepoint.cr.Field</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputDoc_2">
+      <string></string>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>board</string>
+    </userobject>
+    <userobject key="inputType_2">
+      <de.jabc.plugin.jabc4.api.ParameterizableType id="197">
+        <type class="java-class">java.lang.Integer</type>
+        <typeParams id="198"/>
+        <rawType>java.lang.Integer</rawType>
+        <parameterized>false</parameterized>
+        <gTVFromSubGraph>true</gTVFromSubGraph>
+        <dimensionsOfArray>0</dimensionsOfArray>
+      </de.jabc.plugin.jabc4.api.ParameterizableType>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>xCoord</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="197"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="199">
+        <entry>
+          <string>Rand</string>
+          <string>edge</string>
+        </entry>
+        <entry>
+          <string>Mitte</string>
+          <string>middle</string>
+        </entry>
+        <entry>
+          <string>Ecke</string>
+          <string>corner</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Checks where the cell is located: in either corner, edge or middle of the board.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAihJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkB8VlAaSIoNPAfzBGujp4sv75/Z8RlwK/fvxnYODlwWvDr1y8GNjbc0crGyvZ/9/7tf0Bs/wBfhraWTkmYQxhAaQKm8M+f34zNlfMY7ktgT7Pb2uIYrty4gNMiNzc3hl27duGUFxMTg3tSUUkRLg52AC0SJjEAOSkwMQwSMOqQUYcQAizoAj+B5cCshc0M/3FoePr8ITiL4gIXL17EKw8qZ4hyCDuwMDp/9RzZ5QQR5choGhl1yKhDaFeO4C0nzp1jcDS3wCl/9c5t6pUj+MoBO1NzBtPsWTjlP/cmjZYjow4ZAQ75+fPXgFgO6vmhZN87t+8w2NhaQfodwOyLK4uBHf39B8PlPAc8hv/Bqx+5zwPqfsIdAuwQ39q0cYtybHw0M6h5v3Pvtt/0CpGNGzYzCAoKvH7//gMDE7BXXnX71m3m3q5+ukbLhL5JDFevXGOQkJJsQxkNYGJmalZTVWX0C/QF9vxUGGjRDwaliUcPHzOsW7se7AhVNdVlwEBIQHYICHjz8vL2fv78WYnWoQGKDnl5udYLFy5NYxhsAAAhg8FEUE2fKQAAAABJRU5ErkJggg==</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>woLiegtDieZelle</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string></string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="200">
+        <entry>
+          <string>Rand</string>
+          <string>The cell is located on an edge.</string>
+        </entry>
+        <entry>
+          <string>Mitte</string>
+          <string>The cell is located in the middle of the board.</string>
+        </entry>
+        <entry>
+          <string>Ecke</string>
+          <string>The cell is located in a corner.</string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>98d3645d-1242-4f49-95a7-7f77739e6f8f</string>
+    </userobject>
+  </sib>
+  <edge id="201">
+    <source>64a9c70c-c46e-457a-bc4d-256f1c6a2296</source>
+    <target>b6c50772-7a4b-48af-9aa3-83c2ead28e64</target>
+    <point>851.0,128.44313725490196</point>
+    <point>634.0,153.97254901960784</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>Ecke</branch>
+  </edge>
+  <sib id="202">
+    <id>b6c50772-7a4b-48af-9aa3-83c2ead28e64</id>
+    <name>ServiceGraph_20</name>
+    <label>add200Malus</label>
+    <sib-uid>de.jabc.plugin.jabc4.sib.ServiceGraph</sib-uid>
+    <taxonomy>de.jabc.plugin.jabc4.sib.ServiceGraph</taxonomy>
+    <position>1284.0,601.5</position>
+    <parameter name="input_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="203">
+        <ContextKeyFoundation id="204">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="input_1">
+      <int>0</int>
+    </parameter>
+    <parameter name="instanceKey">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="205">
+        <ContextKeyFoundation id="206">
+          <key>02c5214c-e7d3-4406-bc21-16218c39971d</key>
+          <scope>LOCAL</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <parameter name="output_success_0">
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey id="207">
+        <ContextKeyFoundation id="208">
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <scope>PARENT</scope>
+          <scopeMutable>false</scopeMutable>
+        </ContextKeyFoundation>
+      </de.metaframe.jabc.framework.sib.parameter.ContextKey>
+    </parameter>
+    <finalbranches>success</finalbranches>
+    <userobject key="outputDoc_success_0">
+      <string>The new cell value.</string>
+    </userobject>
+    <userobject key="inputDoc_1">
+      <string>The malus that has to be set to decrease the cell value.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$SVG">
+      <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:svg=&quot;http://www.w3.org/2000/svg&quot; xmlns:sodipodi=&quot;http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd&quot; xmlns:inkscape=&quot;http://www.inkscape.org/namespaces/inkscape&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:cc=&quot;http://creativecommons.org/ns#&quot; contentScriptType=&quot;text/ecmascript&quot; zoomAndPan=&quot;magnify&quot; contentStyleType=&quot;text/css&quot; id=&quot;svg6342&quot; sodipodi:docname=&quot;addMalus.svg&quot; version=&quot;1.1&quot; width=&quot;33.5&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; inkscape:version=&quot;0.48.3.1 r9886&quot; height=&quot;33.5&quot;&gt;
+  &lt;defs id=&quot;defs6344&quot;&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 526.18109 : 1&quot; id=&quot;perspective6350&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;744.09448 : 526.18109 : 1&quot; inkscape:persp3d-origin=&quot;372.04724 : 350.78739 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective6360&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+    &lt;inkscape:perspective inkscape:vp_x=&quot;0 : 0.5 : 1&quot; id=&quot;perspective5240&quot; sodipodi:type=&quot;inkscape:persp3d&quot; inkscape:vp_z=&quot;1 : 0.5 : 1&quot; inkscape:vp_y=&quot;0 : 1000 : 0&quot; inkscape:persp3d-origin=&quot;0.5 : 0.33333333 : 1&quot;/&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview bordercolor=&quot;#666666&quot; inkscape:window-height=&quot;1000&quot; inkscape:zoom=&quot;5.6&quot; id=&quot;base&quot; inkscape:current-layer=&quot;layer1&quot; inkscape:window-y=&quot;24&quot; inkscape:cy=&quot;2.2150118&quot; inkscape:window-x=&quot;65&quot; inkscape:cx=&quot;56.144239&quot; showgrid=&quot;false&quot; inkscape:pageopacity=&quot;0.0&quot; inkscape:document-units=&quot;px&quot; inkscape:pageshadow=&quot;2&quot; inkscape:window-width=&quot;1215&quot; inkscape:window-maximized=&quot;1&quot; borderopacity=&quot;1.0&quot; pagecolor=&quot;#ffffff&quot;/&gt;
+  &lt;metadata id=&quot;metadata6347&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work rdf:about=&quot;&quot;&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type rdf:resource=&quot;http://purl.org/dc/dcmitype/StillImage&quot;/&gt;
+        &lt;dc:title/&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g inkscape:groupmode=&quot;layer&quot; id=&quot;layer1&quot; transform=&quot;translate(-217.53571,-535.61219)&quot; inkscape:label=&quot;Layer 1&quot;&gt;
+    &lt;g style=&quot;opacity:0.98000004;display:inline;enable-background:new&quot; id=&quot;g6872-1&quot; transform=&quot;translate(68.09908,-404.20757)&quot;&gt;
+      &lt;g id=&quot;g6867-1&quot;&gt;
+        &lt;rect x=&quot;150.18663&quot; y=&quot;940.56976&quot; width=&quot;32&quot; style=&quot;fill:#d3d7cf;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0&quot; ry=&quot;4.7982244&quot; id=&quot;rect8783-1&quot; height=&quot;32&quot;/&gt;
+        &lt;g style=&quot;font-size:23.29000092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial&quot; id=&quot;text8785-4&quot;&gt;
+          &lt;path sodipodi:nodetypes=&quot;cccccccc&quot; d=&quot;m 158.89714,958.16037 -4.53746,0 0,-1.91051 4.53746,0 1.93325,0 4.53745,0 0,1.91051 -4.53745,0&quot; id=&quot;path2993&quot; inkscape:connector-curvature=&quot;0&quot;/&gt;
+          &lt;path style=&quot;&quot; id=&quot;path2995&quot; d=&quot;m 168.19949,965.42712 0,-12.07714 1.84227,0 0,1.71719 c 0.88702,-1.32673 2.16827,-1.9901 3.84376,-1.99011 0.72781,1e-5 1.39497,0.13268 2.00149,0.39802 0.61408,0.25778 1.07275,0.59894 1.37602,1.02348 0.30324,0.42457 0.51552,0.92873 0.63684,1.51249 0.0758,0.37908 0.11371,1.04245 0.11372,1.99011 l 0,7.42596 -2.04698,0 0,-7.34635 c -1e-5,-0.83395 -0.0796,-1.45562 -0.23881,-1.86502 -0.15922,-0.41697 -0.44352,-0.74676 -0.85291,-0.98937 -0.40182,-0.25018 -0.87565,-0.37527 -1.4215,-0.37528 -0.87187,10e-6 -1.62622,0.27673 -2.26305,0.83016 -0.62925,0.55345 -0.94388,1.60347 -0.94388,3.15006 l 0,6.5958 -2.04697,0&quot;/&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+      &lt;g id=&quot;g8090-1&quot; transform=&quot;translate(-454.35016,234.46391)&quot;&gt;
+        &lt;g id=&quot;g3141-5-01-3&quot; transform=&quot;matrix(-1,0,0,1,858.91373,623.32175)&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</string>
+    </userobject>
+    <userobject key="outputName_success_0">
+      <string>result</string>
+    </userobject>
+    <userobject key="inputType_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="197"/>
+    </userobject>
+    <userobject key="inputName_0">
+      <string>cellValue</string>
+    </userobject>
+    <userobject key="outputType_success_0">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="197"/>
+    </userobject>
+    <userobject key="inputName_1">
+      <string>200</string>
+    </userobject>
+    <userobject key="inputType_1">
+      <de.jabc.plugin.jabc4.api.ParameterizableType reference="197"/>
+    </userobject>
+    <userobject key="branchDisplayNames">
+      <map id="209"/>
+    </userobject>
+    <userobject key="iosibDoc">
+      <string>Decreases the current cell value by a determined malus.</string>
+    </userobject>
+    <userobject key="ABC$CUSTOM$B64">
+      <string>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAopJREFUeNpjZECAKCCuBWJlBhoDRkbGe////28CMpfBxaB0GRC3yMvLfQkOC+JSVVVlYmdno7oD/v79y3D/3n2GNavX/bt18zYTEPT8+/evCuYQUEgsiI6J+l1aUcTKzMzMQA/Q293PsGDeIgZWVtbk379/L2YCRYeCgvxXejoCBIpLCxm0dbRADmkBcllADlEOCg3kpKcjYMA/wJfh27dvkkCmOsghDKA0wTAAQFFJEcYUATuAFgmTGIAcCwMSEtjAqENGHTJkHMJCLYOePX3GsGH9JgYNTXUGewc7hu1bdzAcOniY4c2btwy8vLwMTs4ODB5eHjiLCqo55CnQIdOnzmTw8fNmWLdmA8PBA4dQ5Pft3c+wY/tOhinTJzFgK8VZqB3Eu3fuZmBjY2eYPW8Gg6mZCVhsPTCkWhpaGY4cPgbER8EhRtAh799/ANeMxABBQQFw5YUMfv78xdDV28FgYWkOFwsJCWQ4dfwkw/ZtOxkuX7pCnEO+f/vGsBHoA2KApLQkhkNAjsNmkYKiAph+8eIlcWlEAGhQS1sjUQ7h5OLCEJOVk2UgpybHcAgX0HD/QD+y0wg7O/togTbqkNG6higgIiICzm2K0PICHYDqIJC8gZEBbR2iqKSAt/xxcnYEY7xRAyqWBwKAen4oDrlz+86AOATU/YSCF0zADvGtTRu3/EV2Hb3Axg2bQXXTayDzLhOwV151+9Zt5t6ufro6YkLfJIarV64xSEhJtgG5f+CjAUzMTM1qqqqMfoG+wJ6fCgMtuqCgUH/08DHDurXrwY5QVVNdBgyEBORhCRDwBjbpej9//qxE69AARYe8vFzrhQuXpqGPjyADeVDzgYbueAFKE6DoQBYEAAkLyCzkJoh8AAAAAElFTkSuQmCC</string>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELNAME">
+      <string>Subtract</string>
+    </userobject>
+    <userobject key="inputDoc_0">
+      <string>The current cell value.</string>
+    </userobject>
+    <userobject key="branchDoc">
+      <map id="210">
+        <entry>
+          <string>success</string>
+          <string></string>
+        </entry>
+      </map>
+    </userobject>
+    <userobject key="ABC$GRAPHSIB$MODELID">
+      <string>69801c8f-800b-4545-975a-2c0dee0a770f</string>
+    </userobject>
+  </sib>
+  <edge id="211">
+    <source>b6c50772-7a4b-48af-9aa3-83c2ead28e64</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <point>1080.0,150.0</point>
+    <point>1090.0,635.0</point>
+    <branch>success</branch>
+  </edge>
+  <edge id="212">
+    <source>64a9c70c-c46e-457a-bc4d-256f1c6a2296</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <spline/>
+    <point>1320.0,165.0</point>
+    <point>1290.0,345.0</point>
+    <point>1260.0,405.0</point>
+    <point>1230.0,450.0</point>
+    <point>1080.0,630.0</point>
+    <labelposition>500.0,0.0</labelposition>
+    <branch>Rand</branch>
+  </edge>
+  <edge id="213">
+    <source>64a9c70c-c46e-457a-bc4d-256f1c6a2296</source>
+    <target>dc4c180c-a949-417d-b6a0-f1506bbf462e</target>
+    <point>1320.0,165.0</point>
+    <point>1082.0,613.0</point>
+    <branch>Mitte</branch>
+  </edge>
+  <userobject key="de.jabc.plugin.jabc4.model.GraphData">
+    <de.jabc.plugin.jabc4.model.GraphData id="214">
+      <pkg>ownStrategies</pkg>
+      <graphId>5a2f1dc8-f371-4540-99b0-139e1ec01fff</graphId>
+      <graphType>SERVICE_GRAPH</graphType>
+      <ifaceIds id="215">
+        <string>051c72e2-4583-4d57-971d-25284ea6177e</string>
+      </ifaceIds>
+      <variables id="216">
+        <de.jabc.plugin.jabc4.api.ContextVariable id="217">
+          <name>cellValue</name>
+          <doc></doc>
+          <key>6a865ed3-5757-4909-9a9b-4f6da30ccb35</key>
+          <originKey>660541ef-62cb-42ac-b142-ab572882e62a</originKey>
+          <ptype id="218">
+            <type class="java-class">java.lang.Integer</type>
+            <typeParams id="219"/>
+            <rawType>java.lang.Integer</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="220">
+          <name>board</name>
+          <doc></doc>
+          <key>9ac936f3-0c05-4558-a2ff-407fcd9dbaf1</key>
+          <originKey>9ac8796f-6032-426b-9be2-865932e56c2b</originKey>
+          <ptype id="221">
+            <type class="java-class">de.freewarepoint.cr.Field</type>
+            <typeParams id="222"/>
+            <rawType>de.freewarepoint.cr.Field</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="223">
+          <name>xCoord</name>
+          <doc></doc>
+          <key>3e81fda1-8950-49bb-90c1-f4fca1ab2ffe</key>
+          <originKey>c849099e-d662-4705-a7fc-1ca692fdce8c</originKey>
+          <ptype id="224">
+            <type class="java-class">java.lang.Integer</type>
+            <typeParams id="225"/>
+            <rawType>java.lang.Integer</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="226">
+          <name>yCoord</name>
+          <doc></doc>
+          <key>afb01d47-9ccb-4741-842e-0274d0656fa9</key>
+          <originKey>9fb3e099-399a-4f2e-8c35-3ec09bf31a46</originKey>
+          <ptype reference="224"/>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="227">
+          <name>player</name>
+          <doc></doc>
+          <key>fc98cb3f-6c77-403c-a952-d9273b9b9531</key>
+          <originKey>e1c74706-6d41-4fb5-b720-5d050ca566c3</originKey>
+          <ptype id="228">
+            <type class="java-class">de.freewarepoint.cr.Player</type>
+            <typeParams id="229"/>
+            <rawType>de.freewarepoint.cr.Player</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="230">
+          <name>opponent</name>
+          <doc></doc>
+          <key>cdae8cf5-6fd2-45b1-9549-223c3ae7325b</key>
+          <originKey>2a41bf65-3263-4459-93d4-68e5a19a66e4</originKey>
+          <ptype id="231">
+            <type class="java-class">de.freewarepoint.cr.Player</type>
+            <typeParams id="232"/>
+            <rawType>de.freewarepoint.cr.Player</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+        <de.jabc.plugin.jabc4.api.ContextVariable id="233">
+          <name>danger</name>
+          <doc></doc>
+          <key>7c264b5f-2a9a-4107-bb78-3baaf82a0807</key>
+          <originKey>1912b440-fcbd-475f-a9a7-3c9c3042bad7</originKey>
+          <ptype id="234">
+            <type class="java-class">java.lang.Integer</type>
+            <typeParams id="235"/>
+            <rawType>java.lang.Integer</rawType>
+            <parameterized>false</parameterized>
+            <gTVFromSubGraph>true</gTVFromSubGraph>
+            <dimensionsOfArray>0</dimensionsOfArray>
+          </ptype>
+          <injectInstance>false</injectInstance>
+        </de.jabc.plugin.jabc4.api.ContextVariable>
+      </variables>
+    </de.jabc.plugin.jabc4.model.GraphData>
+  </userobject>
+  <userobject key="LOCALCHECKER$GRAPH_CHECKS">
+    <linked-list id="236">
+      <de.jabc.plugin.jabc4.check.graph.BasicsCheck id="237">
+        <clazzName>de.jabc.plugin.jabc4.check.graph.BasicsCheck</clazzName>
+      </de.jabc.plugin.jabc4.check.graph.BasicsCheck>
+      <de.jabc.plugin.jabc4.check.graph.InterfaceCheck id="238">
+        <clazzName>de.jabc.plugin.jabc4.check.graph.InterfaceCheck</clazzName>
+      </de.jabc.plugin.jabc4.check.graph.InterfaceCheck>
+      <de.jabc.plugin.jabc4.check.graph.SafetyCheck id="239">
+        <clazzName>de.jabc.plugin.jabc4.check.graph.SafetyCheck</clazzName>
+      </de.jabc.plugin.jabc4.check.graph.SafetyCheck>
+      <de.jabc.plugin.jabc4.check.graph.TypeCompatibilityCheck id="240">
+        <clazzName>de.jabc.plugin.jabc4.check.graph.TypeCompatibilityCheck</clazzName>
+      </de.jabc.plugin.jabc4.check.graph.TypeCompatibilityCheck>
+    </linked-list>
+  </userobject>
+  <parameter id="241">
+    <name>input_0</name>
+    <field>input_0</field>
+    <sib>a9997668-01ce-45e4-a7a9-f30457c307e4</sib>
+  </parameter>
+  <parameter id="242">
+    <name>input_1</name>
+    <field>input_1</field>
+    <sib>a9997668-01ce-45e4-a7a9-f30457c307e4</sib>
+  </parameter>
+  <parameter id="243">
+    <name>input_2</name>
+    <field>input_2</field>
+    <sib>a9997668-01ce-45e4-a7a9-f30457c307e4</sib>
+  </parameter>
+  <parameter id="244">
+    <name>input_3</name>
+    <field>input_3</field>
+    <sib>a9997668-01ce-45e4-a7a9-f30457c307e4</sib>
+  </parameter>
+  <parameter id="245">
+    <name>output_erfolgreich_0</name>
+    <field>output_success_0</field>
+    <sib>dc4c180c-a949-417d-b6a0-f1506bbf462e</sib>
+  </parameter>
+  <values id="246">
+    <entry>
+      <string>output_erfolgreich_0</string>
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey reference="9"/>
+    </entry>
+    <entry>
+      <string>input_1</string>
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey reference="25"/>
+    </entry>
+    <entry>
+      <string>input_2</string>
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey reference="27"/>
+    </entry>
+    <entry>
+      <string>input_3</string>
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey reference="29"/>
+    </entry>
+    <entry>
+      <string>input_0</string>
+      <de.metaframe.jabc.framework.sib.parameter.ContextKey reference="23"/>
+    </entry>
+  </values>
+  <branch id="247">
+    <name>erfolgreich</name>
+    <branch>success</branch>
+    <sib>dc4c180c-a949-417d-b6a0-f1506bbf462e</sib>
+  </branch>
+</model>
